@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 安装私有Git服务
+title: 搭建私有Git服务
 ---
 1. 为什么不用Github或者Gitlab
 
