@@ -51,6 +51,7 @@ title: 搭建私有Git服务
 		git add keydir
 		git commit -m "added gamedb_data, gave access to alice"
 		git push
+	
 	在clone代码的时候总是提示输入代码，参照[文档](http://gitolite.com/gitolite/sts.html#stsapp1)觉得没有问题，使用`ssh -vvv git@host info`发现问题出在/etc/ssh_config, 默认IdentityFile被设置为/User/oscar/.ssh/openssh-key
 	
 10. 通知alice下载代码
