@@ -3,7 +3,7 @@ title: 桃花岛
 email: ro4tub@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   关注Linux、Go、C++和游戏开发相关技术
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://huangyaoshi.me" # the base hostname & protocol for your site
 twitter_username: ro4tub
 github_username:  ro4tub
