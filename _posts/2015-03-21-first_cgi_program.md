@@ -1,4 +1,4 @@
-I---
+---
 layout: post
 title: 初尝CGI程序
 ---
