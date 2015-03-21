@@ -52,13 +52,13 @@ title: 初尝CGI程序
 	oscar@ubuntu:~/work/hello_cgi$ /usr/local/nginx/sbin/spawn-fcgi  -a 127.0.0.1 -p 9527 -f /usr/local/nginx/cgi/hello
 	spawn-fcgi: child spawned successfully: PID: 17157
 
-	修改nginx.conf
-	    location ~ \.cgi$ {
-	        fastcgi_pass 127.0.0.1:9527;
-	        fastcgi_index index.cgi;
-	        fastcgi_param SCRIPT_FILENAME fcgi$fastcgi_script_name;
-	        include fastcgi_params;
-	    }
+	#修改nginx.conf
+    location ~ \.cgi$ {
+        fastcgi_pass 127.0.0.1:9527;
+        fastcgi_index index.cgi;
+        fastcgi_param SCRIPT_FILENAME fcgi$fastcgi_script_name;
+        include fastcgi_params;
+    }
 
 	sudo kill -HUP PID
 
