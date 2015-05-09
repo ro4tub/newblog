@@ -5,9 +5,9 @@ title: Windows下输入Todo到Things
 
 Things是一款Todo管理软件，非常适合我，所以一直用着。理论上来说每天做的所有事情，都是Things里规划好的，所以需要非常便捷地把Todo输入到Things里。
 
-平时主要用Things的iPhone和Mac版本，通过开启VPN同步，非常好用。特别提一下osx10.10支持App扩展，所以非常便捷地输入Todo。
+平时主要用Things的iPhone和Mac版本，通过开启VPN同步，非常好用。特别提一下OSX10.10支持App扩展，更加方便Todo的输入了。
 
-但问题来了，平日在公司上班主要用Pc，怎么在Pc上输入呢？万能的google给了答案（感谢Boguslaw):
+但问题来了，平日在公司上班主要用PC，怎么在PC上输入呢？万能的google给了答案（感谢Boguslaw):
 
 > 1. 登录www.icloud.com
 > 2. 在Reminders创建新的List，比如说Things
@@ -18,7 +18,7 @@ Things是一款Todo管理软件，非常适合我，所以一直用着。理论�
 > 
 > 
 
-官方支持中还提到通过Apple Script同步方式，大家也可以试试。不过对于我，reminders这种办法已经够用了。
+官方支持中还提到通过Apple Script导入，大家可以试试。不过对于我，Reminders这种办法已经够用了。
 
 
 ##参考
